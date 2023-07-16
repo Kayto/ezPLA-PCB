@@ -11,4 +11,6 @@ License: CC-BY-SA https://creativecommons.org/licenses/by-sa/4.0/
 
 ## Revision Status
 
-**This Kayto (@AdamT117) fork adds the CASRAM delay NAND gate to the PCB. Currently unested but will report back soon!**
+Revision 2.0 - July 2023
+
+**This Kayto (@AdamT117) fork adds the CASRAM delay NAND gate to the PCB. Currently untested but will report back soon!**
