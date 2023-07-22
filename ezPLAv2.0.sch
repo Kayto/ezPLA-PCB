@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ezPLA by ezContents (Marek)"
-Date "2023-07-11"
+Date "2023-07-22"
 Rev "v2.0"
 Comp "- updated by AdamT117 https://github.com/Kayto/"
 Comment1 ""
@@ -412,65 +412,65 @@ $EndComp
 $Comp
 L 74xx:74LS00 U1
 U 1 1 64AD77B5
-P 5875 1100
-F 0 "U1" H 5875 1425 50  0000 C CNN
-F 1 "74LS00" H 5875 1334 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5875 1100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5875 1100 50  0001 C CNN
-	1    5875 1100
+P 5400 1100
+F 0 "U1" H 5400 1425 50  0000 C CNN
+F 1 "74LS00" H 5400 1334 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5400 1100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5400 1100 50  0001 C CNN
+	1    5400 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS00 U1
 U 2 1 64AD9488
-P 5900 1750
-F 0 "U1" H 5900 2075 50  0000 C CNN
-F 1 "74LS00" H 5900 1984 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5900 1750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5900 1750 50  0001 C CNN
-	2    5900 1750
+P 5425 1750
+F 0 "U1" H 5425 2075 50  0000 C CNN
+F 1 "74LS00" H 5425 1984 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5425 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5425 1750 50  0001 C CNN
+	2    5425 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6175 1100 6175 1350
+	5700 1100 5700 1350
 Wire Wire Line
-	6175 1350 5600 1350
+	5700 1350 5125 1350
 Wire Wire Line
-	5600 1350 5600 1650
+	5125 1350 5125 1650
 Wire Wire Line
-	5600 1850 5600 1650
-Connection ~ 5600 1650
-Text GLabel 5475 1000 0    50   Input ~ 0
+	5125 1850 5125 1650
+Connection ~ 5125 1650
+Text GLabel 5000 1000 0    50   Input ~ 0
 CASRAM
 Wire Wire Line
-	5475 1000 5575 1000
-Text GLabel 8050 2225 2    50   Output ~ 0
+	5000 1000 5100 1000
+Text GLabel 8250 2475 2    50   Output ~ 0
 CASRAM(d)
 Wire Wire Line
-	5575 1200 5575 1000
-Connection ~ 5575 1000
+	5100 1200 5100 1000
+Connection ~ 5100 1000
 $Comp
 L Device:R_Small R1
 U 1 1 64AED40B
-P 7800 2450
-F 0 "R1" H 7859 2496 50  0000 L CNN
-F 1 "1k" H 7859 2405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7800 2450 50  0001 C CNN
-F 3 "~" H 7800 2450 50  0001 C CNN
-	1    7800 2450
+P 8000 2700
+F 0 "R1" H 8059 2746 50  0000 L CNN
+F 1 "1k" H 8059 2655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8000 2700 50  0001 C CNN
+F 3 "~" H 8000 2700 50  0001 C CNN
+	1    8000 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7800 2550 7800 2650
+	8000 2800 8000 2900
 $Comp
 L power:GND #PWR0108
 U 1 1 64AF8A3C
-P 7800 2650
-F 0 "#PWR0108" H 7800 2400 50  0001 C CNN
-F 1 "GND" H 7805 2477 50  0000 C CNN
-F 2 "" H 7800 2650 50  0001 C CNN
-F 3 "" H 7800 2650 50  0001 C CNN
-	1    7800 2650
+P 8000 2900
+F 0 "#PWR0108" H 8000 2650 50  0001 C CNN
+F 1 "GND" H 8005 2727 50  0000 C CNN
+F 2 "" H 8000 2900 50  0001 C CNN
+F 3 "" H 8000 2900 50  0001 C CNN
+	1    8000 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -489,65 +489,111 @@ VCC
 $Comp
 L 74xx:74LS00 U1
 U 3 1 64B25E04
-P 7150 1100
-F 0 "U1" H 7150 1425 50  0000 C CNN
-F 1 "74LS00" H 7150 1334 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7150 1100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 7150 1100 50  0001 C CNN
-	3    7150 1100
+P 7350 1100
+F 0 "U1" H 7350 1425 50  0000 C CNN
+F 1 "74LS00" H 7350 1334 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7350 1100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 7350 1100 50  0001 C CNN
+	3    7350 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS00 U1
 U 4 1 64B28860
-P 7150 1750
-F 0 "U1" H 7150 2075 50  0000 C CNN
-F 1 "74LS00" H 7150 1984 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7150 1750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 7150 1750 50  0001 C CNN
-	4    7150 1750
+P 7350 1750
+F 0 "U1" H 7350 2075 50  0000 C CNN
+F 1 "74LS00" H 7350 1984 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7350 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 7350 1750 50  0001 C CNN
+	4    7350 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 1850 6850 1650
+	7050 1850 7050 1650
 Wire Wire Line
-	6850 1650 6850 1350
+	7050 1650 7050 1350
 Wire Wire Line
-	6850 1350 7450 1350
+	7050 1350 7650 1350
 Wire Wire Line
-	7450 1350 7450 1100
-Connection ~ 6850 1650
+	7650 1350 7650 1100
+Connection ~ 7050 1650
 Wire Wire Line
-	7800 2225 8050 2225
+	8000 2475 8250 2475
 Wire Wire Line
-	7800 2225 7800 2350
-Connection ~ 7800 2225
+	8000 2475 8000 2600
+Connection ~ 8000 2475
 Wire Wire Line
-	6850 1000 6850 1200
+	7050 1000 7050 1200
 Wire Wire Line
-	7450 1750 7800 1750
+	7650 1750 8000 1750
 Wire Wire Line
-	7800 1750 7800 2225
+	8000 1750 8000 1925
 Wire Wire Line
-	6200 1750 6200 1975
+	5725 1750 5725 1975
 Wire Wire Line
-	6200 1975 6400 1975
+	5725 1975 6350 1975
 $Comp
 L Jumper:Jumper_3_Open JP1
 U 1 1 64B76C9A
-P 6550 1975
-F 0 "JP1" V 6504 2062 50  0000 L CNN
-F 1 "Jumper_3_Open" V 6595 2062 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 6550 1975 50  0001 C CNN
-F 3 "~" H 6550 1975 50  0001 C CNN
-	1    6550 1975
+P 6500 1975
+F 0 "JP1" V 6454 2062 50  0000 L CNN
+F 1 "Jumper_3_Open" V 6545 2062 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 6500 1975 50  0001 C CNN
+F 3 "~" H 6500 1975 50  0001 C CNN
+	1    6500 1975
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6850 1000 6550 1000
+	7050 1000 6500 1000
 Wire Wire Line
-	6550 1000 6550 1725
-Connection ~ 6850 1000
+	6500 1000 6500 1725
+Connection ~ 7050 1000
+$Comp
+L Jumper:Jumper_2_Open JP2
+U 1 1 64BC8652
+P 6300 1000
+F 0 "JP2" H 6300 775 50  0000 C CNN
+F 1 "Jumper_2_Open" H 6300 866 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6300 1000 50  0001 C CNN
+F 3 "~" H 6300 1000 50  0001 C CNN
+	1    6300 1000
+	-1   0    0    1   
+$EndComp
+Connection ~ 6500 1000
 Wire Wire Line
-	6550 2225 7800 2225
+	6100 1000 6100 1225
+$Comp
+L power:GND #PWR0110
+U 1 1 64BD6798
+P 6100 1225
+F 0 "#PWR0110" H 6100 975 50  0001 C CNN
+F 1 "GND" H 6105 1052 50  0000 C CNN
+F 2 "" H 6100 1225 50  0001 C CNN
+F 3 "" H 6100 1225 50  0001 C CNN
+	1    6100 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2225 6500 2475
+Wire Wire Line
+	6500 2475 8000 2475
+$Comp
+L Jumper:Jumper_2_Open JP3
+U 1 1 64BDDE86
+P 8000 2125
+F 0 "JP3" V 8000 1900 50  0000 C CNN
+F 1 "Jumper_2_Open" V 7900 1700 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 8000 2125 50  0001 C CNN
+F 3 "~" H 8000 2125 50  0001 C CNN
+	1    8000 2125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 2325 8000 2475
+Text Notes 5150 650  0    50   ~ 0
+2 gate delay
+Text Notes 7100 650  0    50   ~ 0
+4 gate delay
+Text Notes 8425 1725 0    50   ~ 0
+2 gate delay\nJP1 - close 2 and 3\nJP2 - close\nJP3 - open\n\n4 gate delay\nJP1 - close 1 and 2\nJP2 - open\nJP3 - close
 $EndSCHEMATC
