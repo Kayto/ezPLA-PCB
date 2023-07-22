@@ -8,3 +8,9 @@ Tests (includes video): https://ezcontents.org/commodore-64-custom-pla-chip-test
 To load the custom symbols and footprints correctly you can edit the files: fp-lib-table and sym-lib-table and change the working directory before loading the project inside KiCad. Or (if you are using Windows) you can also place the project files inside: C:/Projects/KiCAD/ezPLA/
 
 License: CC-BY-SA https://creativecommons.org/licenses/by-sa/4.0/
+
+## Revision Status
+
+Revision 2.0 - July 2023
+
+**This Kayto (@AdamT117) fork adds the CASRAM delay NAND gate to the PCB. Currently untested but will report back soon!**
