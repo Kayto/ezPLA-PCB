@@ -17,8 +17,8 @@ Revision 2.0 - July 2023
 
 ### Jumper Settings
 
-Solder Jumpers have been added to the back of the PCB to allow some element of control over the CASRAM delay using up the remaining spare gates on the 74LS00.
-Not sure this is really needed but...might find a use. 
+Solder Jumpers have been added to the back of the PCB to allow some element of control over the CASRAM delay, using up the remaining spare gates on the 74LS00.
+Not sure this is really needed but provides greater flexibility (see below). 
 
 ![](https://github.com/Kayto/ezPLA-PCB/blob/main/ezPLAv2.0%20back.jpg)
 
