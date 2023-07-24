@@ -36,7 +36,7 @@ The jumpers therefore allow the following;
 * JP3 - close
 
 ### CASRAM delay
-The [ezContents](https://ezcontents.org/troubleshooting-c64-pla-chip-replacement) blog provides a fantastic wrtite up on the CASRAM delay.
+The [ezContents](https://ezcontents.org/troubleshooting-c64-pla-chip-replacement) blog provides a fantastic write up on the CASRAM delay.
 
 The propagation delays of original PLAs are of the order of 25 ns ± 5 ns.
 
