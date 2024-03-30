@@ -48,9 +48,7 @@ Alternative NAND gates are also an option to control the delay, albeit a bit tri
 
 Testing will tell!
 
-### Test PCB
 
-An alternative PCB is provided using headers for the jumpers instead of solder jumpers. A bit more flexible for adjustment.
 
 
 
